@@ -1,12 +1,11 @@
 {
   "expo": {
     "name": "WhatsWrong",
-    "slug": "WhatsWrong",
+    "slug": "WhatsWrong", 
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -19,24 +18,10 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      }
     },
     "web": {
-      "favicon": "./assets/favicon.png",
-      "name": "What's Wrong? - Das Partyspiel",
-      "shortName": "WhatsWrong",
-      "description": "Das lustige Partyspiel für alle Altersgruppen - Classic, Kids und Adults Version",
-      "themeColor": "#26495c",
-      "backgroundColor": "#e5e5dc",
-      "display": "standalone",
-      "bundler": "metro",
-      "output": "static"
-    },
-    "experiments": {
-      "tsconfigPaths": true,
-      "typedRoutes": false
+      "favicon": "./assets/favicon.png"
     }
   }
 }
