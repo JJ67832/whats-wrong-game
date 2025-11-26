@@ -39,3 +39,6 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Netlify (falls du Netlify CLI verwendest)
+.netlify/
