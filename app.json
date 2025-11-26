@@ -33,6 +33,10 @@
       "display": "standalone",
       "bundler": "metro",
       "output": "static"
+    },
+    "experiments": {
+      "tsconfigPaths": true,
+      "typedRoutes": false
     }
   }
 }
