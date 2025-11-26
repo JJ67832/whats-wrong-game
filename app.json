@@ -24,7 +24,15 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "name": "What's Wrong? - Das Partyspiel",
+      "shortName": "WhatsWrong",
+      "description": "Das lustige Partyspiel für alle Altersgruppen - Classic, Kids und Adults Version",
+      "themeColor": "#26495c",
+      "backgroundColor": "#e5e5dc",
+      "display": "standalone",
+      "bundler": "metro",
+      "output": "static"
     }
   }
 }

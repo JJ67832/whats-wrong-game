@@ -1,0 +1,47 @@
+export const ADULT_INSTRUCTIONS = [
+  "Antworte immer mit einer frechen oder anzüglichen Bemerkung",
+  "Berühre dein Glas bei jeder Antwort",
+  "Trinke einen Schluck, wenn jemand lacht",
+  "Flirte mit der Person rechts von dir",
+  "Beginne jede Antwort mit 'Also damals in der Uni...'",
+  "Erfinde eine peinliche Geschichte über dich selbst",
+  "Imitiere einen Prominenten bei jeder Antwort",
+  "Antworte nur in Fragen",
+  "Mache ein Kompliment, bevor du antwortest",
+  "Trinke, wenn jemand deinen Namen sagt",
+  "Stelle eine Gegenfrage an den Fragesteller",
+  "Antworte mit einem Songtext",
+  "Tue so, als würdest du die Person nicht verstehen",
+  "Beende jede Antwort mit '...aber das ist nur meine Meinung'",
+  "Wechsle das Thema komplett",
+  "Übertreibe maßlos in deiner Antwort",
+  "Antworte in einer anderen Sprache (oder gib vor)",
+  "Mache ein Selfie mit dem Fragesteller",
+  "Trinke einen Shot, wenn du nicht antworten willst",
+  "Erzähle ein schlechtes Wortspiel",
+  "Singe deine Antwort",
+  "Tue so, als wärst du betrunker als du bist",
+  "Antworte mit einem Filmzitat",
+  "Stelle Augenkontakt her und lächele unheimlich",
+  "Rede nur in Reimen",
+  "Tu so, als wärst du ein Ausländer mit schlechten Deutschkenntnissen",
+  "Beginne jede Antwort mit 'Mein Therapeut sagt...'",
+  "Beziehe jede Antwort auf dein Lieblingshobby",
+  "Antworte extrem langsam und bedacht",
+  "Tu so, als wärst du schwerhörig",
+  "Erzähle eine lange, ausschweifende Geschichte",
+  "Antworte mit einer Lebensweisheit",
+  "Mache dramatische Pausen zwischen den Wörtern",
+  "Flüstere deine Antwort",
+  "Schreie deine Antwort plötzlich",
+  "Antworte mit einer mathematischen Formel",
+  "Tu so, als wärst du ein Nachrichtensprecher",
+  "Erfinde ein neues Wort und verwende es",
+  "Antworte mit einem Rätsel",
+  "Beende jede Antwort mit '...und das ist eine Tatsache!'"
+];
+
+export const getRandomInstruction = (): string => {
+  const randomIndex = Math.floor(Math.random() * ADULT_INSTRUCTIONS.length);
+  return ADULT_INSTRUCTIONS[randomIndex];
+};
