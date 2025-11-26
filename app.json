@@ -33,14 +33,6 @@
       "display": "standalone",
       "bundler": "metro",
       "output": "static"
-    },
-    "plugins": [
-      [
-        "expo-router",
-        {
-          "root": "."
-        }
-      ]
-    ]
+    }
   }
 }
